@@ -265,6 +265,8 @@ write.csv(MeanFBody,file = "../desktop/GetCleanData/Tidy/MeanFourierTransformBod
 ##to read tidy data MeantBody.csv use:
 #   ReadMeanFourierBody <- read.csv("C:/Users/Elias/Desktop/GetCleanData/Tidy/MeanFourierTransformBody.csv") 
 
+#or w
+
 #step 52 - find the mean of each each column of the data table "fBodyAccJerk", grouped by subject and activity.
 MeanFBodyAccJerk<-fbodyAccJerk[, list(mean(fbodyAccJerk$`fBodyAccJerk-mean()-X`), mean(fbodyAccJerk$`fBodyAccJerk-mean()-Y`),
                         mean(fbodyAccJerk$`fBodyAccJerk-mean()-Z`), mean(fbodyAccJerk$`fBodyAccJerk-std()-X`),
